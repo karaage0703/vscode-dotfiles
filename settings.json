@@ -1,0 +1,17 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "remote.onstartup": true,
+    "sshfs.configs": [
+        {
+            "label": "raspberry pi",
+            "root": "/home/pi",
+            "host": "raspberrypi.local",
+            "port": 22,
+            "username": "pi",
+            "password": "raspberry",
+            "name": "raspberrypi.local"
+        }
+    ],
+
+    "workbench.colorTheme": "Solarized Light", // カラーテーマ
+}
