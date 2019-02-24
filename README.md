@@ -47,7 +47,7 @@ Execute following commands for setup json file:
 ```sh
 $ cd
 $ git clone https://github.com/karaage0703/vscode-dotfiles
-$ cp settings.json /mnt/c/Users/karaage/AppData/Roaming/Code/User/settings.json
+$ cp ~/vscode-dotfiles/settings.json /mnt/c/Users/karaage/AppData/Roaming/Code/User/settings.json
 ```
 
 # Licence
