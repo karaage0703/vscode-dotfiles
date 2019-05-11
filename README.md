@@ -50,7 +50,7 @@ $ git clone https://github.com/karaage0703/vscode-dotfiles
 $ cp ~/vscode-dotfiles/settings.json /mnt/c/Users/karaage/AppData/Roaming/Code/User/settings.json
 ```
 
-# Licence
+# License
 This software is released under the MIT License, see LICENSE.
 
 # Authors
