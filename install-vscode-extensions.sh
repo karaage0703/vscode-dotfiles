@@ -33,6 +33,8 @@ shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
 esbenp.prettier-vscode
 davidanson.vscode-markdownlint
+njpwerner.autodocstring
+ms-python.vscode-pylance
 )
 
 for i in ${pkglist[@]}; do
