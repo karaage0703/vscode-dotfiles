@@ -2,11 +2,11 @@
 
 # execute command
 # -------------------
-# curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions.sh | /bin/bash
+# curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions-pi.sh | /bin/bash
 
 # Visual Studio Code :: Package list
 pkglist=(
-ms-vscode.cpptools
+# ms-vscode.cpptools
 ms-python.python
 vscodevim.vim
 kelvin.vscode-sshfs
@@ -34,9 +34,9 @@ shuworks.vscode-table-formatter
 esbenp.prettier-vscode
 davidanson.vscode-markdownlint
 njpwerner.autodocstring
-ms-python.vscode-pylance
+# ms-python.vscode-pylance
 )
 
 for i in ${pkglist[@]}; do
-  code --install-extension $i
+  code-oss --install-extension $i
 done
