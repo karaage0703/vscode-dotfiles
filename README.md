@@ -5,7 +5,7 @@ VS Code(Visual Studio Code) setting files
 # Enviroment tested
 
 - Mac OS X High Sierra 10.13.6
-- Linux Ubuntu 16.04
+- Linux Ubuntu 16.04/18.04
 - Windows 10
 
 # Setup
@@ -17,16 +17,17 @@ Execute following command for installing extensions:
 $ curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions.sh | /bin/bash
 ```
 
-json file place: `~/Library/Application\ Support/Code/User/settings.json`
+json file path: `~/Library/Application\ Support/Code/User/settings.json`
 
 ## Linux
 Execute following command for installing extensions:
 
 ```sh
+$ sudo apt-get install -y curl
 $ curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions.sh | /bin/bash
 ```
 
-json file place: `~/.config/Code/User/settings.json`
+json file path: `~/.config/Code/User/settings.json`
 
 
 ## Raspberry Pi
@@ -38,7 +39,7 @@ First, be root.
 $ sudo -s
 ```
 
-Execute following command:
+Execute following command for installing VS Code:
 
 ```sh
 # . <( wget -O - https://code.headmelted.com/installers/apt.sh )
