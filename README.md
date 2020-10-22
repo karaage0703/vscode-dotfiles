@@ -33,22 +33,14 @@ json file path: `~/.config/Code/User/settings.json`
 ## Raspberry Pi
 Install VS Code for Raspberry Pi
 
-First, be root.
+Execute following commands:
 
 ```sh
-$ sudo -s
-```
-
-Execute following command for installing VS Code:
-
-```sh
-# . <( wget -O - https://code.headmelted.com/installers/apt.sh )
-```
-
-Execute following command for installing extensions:
-
-```sh
-$ curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions-pi.sh | /bin/bash
+$ cd && wget -O insider.deb https://update.code.visualstudio.com/latest/linux-deb-armhf/insider
+$ sudo apt install ./insider.deb
+$ sudo mv /usr/bin/code-insiders /usr/bin/code
+$ sudo apt-get install -y curl
+$ curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions.sh | /bin/bash
 ```
 
 ## Windows 10
@@ -73,5 +65,6 @@ karaage0703
 
 # References
 
+- https://qiita.com/karaage0703/items/fb50b6ac5c175b9b1045
 - https://qiita.com/ayatokura/items/4301e0d1d8b339f722eb
 - https://code.headmelted.com/
