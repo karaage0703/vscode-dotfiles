@@ -107,6 +107,9 @@ This software is released under the MIT License, see LICENSE.
 
 karaage0703
 
+## Article
+- [「Visual Studio Codeの教科書」を読んでVS Codeの設定をゼロから見直してみた](https://karaage.hatenadiary.jp/entry/2020/07/17/073000)
+
 ## References
 
 - https://qiita.com/karaage0703/items/fb50b6ac5c175b9b1045
