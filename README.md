@@ -59,7 +59,7 @@ $ sudo snap remove code
 Execute following commands:
 
 ```sh
-$ sudo apt-get install -y curl
+$ sudo apt install -y curl
 $ curl -s https://raw.githubusercontent.com/karaage0703/vscode-dotfiles/master/install-vscode-extensions.sh | /bin/bash
 ```
 
