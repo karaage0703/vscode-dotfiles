@@ -35,6 +35,7 @@ esbenp.prettier-vscode
 davidanson.vscode-markdownlint
 njpwerner.autodocstring
 ms-python.vscode-pylance
+ms-vscode-remote.remote-ssh
 )
 
 for i in ${pkglist[@]}; do
