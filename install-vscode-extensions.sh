@@ -9,11 +9,11 @@ pkglist=(
 ms-vscode.cpptools
 ms-python.python
 vscodevim.vim
-kelvin.vscode-sshfs
+# kelvin.vscode-sshfs
 letmaik.git-tree-compare
 donjayamanne.githistory
 eamodio.gitlens
-coenraads.bracket-pair-colorizer-2
+# coenraads.bracket-pair-colorizer-2
 vscode-icons-team.vscode-icons
 equinusocio.vsc-material-theme-icons
 yzane.markdown-pdf
